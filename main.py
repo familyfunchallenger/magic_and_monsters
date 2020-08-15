@@ -96,9 +96,7 @@ class Monster(Character):
         self.level = MONSTER_DATA[self.subtype]['lvl']
         self.hp = MONSTER_DATA[self.subtype]['hp']
 
-    
-
-
+        
 class Hero(Character):
 
     def __init__(self, ch_type, subtype, x=0, y=0):
